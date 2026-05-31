@@ -4,33 +4,69 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width; initial-scale=1.0">
         <title>Blog personal</title>
+        <link rel="stylesheet" href="estilos.css">
     </head>      
     <body>
-        <header>
-            <h1>Blog Gabriel Toaquiza</h1>
-        </header>
         <nav>
+            <span class="logo">Gabriel Toaquiza</span>
             <ul>
                 <li>Inicio</li>
                 <li>
                     <a href="estudios.html">Estudios</a>
                 </li>
                 <li>
-                    <a href="estudios.html">Habilidades</a>
+                    <a href="habilidades.html">Habilidades</a>
                 </li>
                 <li>
-                    <a href="estudios.html">Proyectos</a>
+                    <a href="proyectos.html">Proyectos</a>
                 </li>
             </ul>
         </nav>
-        <main>
-            <figure>
-                <img src="imagenes/Foto_carnet_gabrieltoaquiza.jpeg" alt="imagen-gabriel-toaquiza"width="300">
-                <figcaption>Imagen Gabriel Toaquiza</figcaption>
-            </figure>
-            <h2>Hola mundo</h2>
-            <p>Bienvenido a mi blog personal.</p>
-        </main>
+
+        <section id="inicio">
+
+            <div class="perfil">
+                <figure>
+                    <img src="imagenes/Foto_carnet_gabrieltoaquiza.jpeg" alt="imagen-gabriel-toaquiza">
+                    <figcaption>Imagen Gabriel Toaquiza</figcaption>
+                </figure>
+                <h2>Hola mundo</h2>
+                <p>Bienvenido a mi blog personal.</p>
+            </div>
+
+            <div class="subcajas">
+
+                <div class="subcaja">
+                    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=400" alt="Estudios">
+                    <div class="subcaja-info">
+                        <h3>Estudios</h3>
+                        <p>Aquí podrás ver mi recorrido académico desde la educación básica hasta la universidad.</p>
+                        <a href="estudios.html" class="boton">Ver estudios</a>
+                    </div>
+                </div>
+
+                <div class="subcaja">
+                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400" alt="Habilidades">
+                    <div class="subcaja-info">
+                        <h3>Habilidades</h3>
+                        <p>Descubre las competencias y habilidades que he desarrollado a lo largo de mi formación.</p>
+                        <a href="habilidades.html" class="boton">Ver habilidades</a>
+                    </div>
+                </div>
+
+                <div class="subcaja">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400" alt="Proyectos">
+                    <div class="subcaja-info">
+                        <h3>Proyectos</h3>
+                        <p>Conoce los proyectos personales y profesionales en los que he participado.</p>
+                        <a href="proyectos.html" class="boton">Ver proyectos</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
         <footer>
             <p>© 2026 Blog Gabriel Toaquiza</p>
         </footer>
